@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <h2>Matrix</h2>
+    <table border="1">
+        <% matrix.forEach(row => { %>
+        <tr>
+        <% row.forEach(num => { %>
+            <td><%= num %></td>
+            <% }); %>
+        </tr>
+        <% }); %>
+    </table>
+    <h2>Hasil</h2>
+    <label>
+        <%= hasil %>
+    </label>
+    <div>
+        <button onclick="window.location.href='/'">Kembali</button>
+    </div>
+</html>

@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+    <h2>Hasil</h2>
+    <label>
+        <% hasil.forEach(item => { %>
+        <li><%= item.word %>: <%= item.count %></li>
+        <% }); %>
+    </label>
+    <div>
+        <button onclick="window.location.href='/'">Kembali</button>
+    </div>
+</html>
